@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="x-apple-disable-message-reformatting">
+    <meta name="color-scheme" content="light">
+<meta name="supported-color-schemes" content="light">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&family=Raleway:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <title></title>
+    <!--[if mso]>
+    <noscript>
+        <xml>
+            <o:OfficeDocumentSettings>
+                <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+    </noscript>
+    <![endif]-->
+    <style>
+        body, table, td, div, h1, p{font-family: Poppins, sans-serif; color: #000;}
+        table, td {border: none;}
+        thead{background-color: #347345;padding: 10px 10px;}
+    </style>
+</head>
+<body style="margin:0;padding:0;">
+    <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;background:#efefef;">
+        <tr>
+            <td align="center" style="padding:0;">
+                <table role="presentation" style="width:602px;border-collapse:collapse;border:none;border-spacing:0;text-align:left;background:#fdfcfd;">
+
+                    <tr>
+
+                        <td style="padding:30px 30px 0px 30px; ">
+                            <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                               <tr>
+                                   <td>
+                                    <img src="https://i.ibb.co/FVkz7cP/4traderx-Logo.png" alt="4traderx-Logo" width="134px" style="height:auto;display:block;" />
+                                   </td>
+                                   <td >
+                                       <h4 style="font-family: Poppins;font-size: 20px;font-style: normal;font-weight:600;line-height: 30px;margin: 15px 0 0px 200px;letter-spacing: 0em;">Transaction Report</h4>
+                                       <p style="font-family: Poppins;font-size: 14px;font-style: normal;font-weight:400; margin: 0 0 0 200px;line-height: 30px;letter-spacing: 0em;">{{currentDate}}</p>
+                                   </td>
+                               </tr>
+
+                            </table>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:30px 30px 0px 30px;border-bottom: 1px solid #e1e1e3;">
+                         <p style="font-family: Poppins;font-size: 14px;font-style: normal;font-weight:400; margin: 0 0 0 0px;line-height: 30px;letter-spacing: 0em;">Name:<strong>{{primaryWalletName}}</strong></p>
+                         <p style="font-family: Poppins;font-size: 14px;font-style: normal;font-weight:400; margin: 0 0 0 0px;line-height: 30px;letter-spacing: 0em;">Account number:<strong>{{primaryWalletAccountNumber}} {{primaryWalletCurrency}}</strong> </p>
+                         <p style="font-family: Poppins;font-size: 14px;font-style: normal;font-weight:400; margin: 0 0 0 0px;line-height: 30px;letter-spacing: 0em;">Address:<strong>{{primaryWalletAddress}}</strong></p>
+                         <p style="font-family: Poppins;font-size: 14px;font-style: normal;font-weight:400; margin: 0 0 35px 0px;line-height: 30px;letter-spacing: 0em;">Period: <strong>{{primaryWalletPeriod}}</strong></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                           <td style="padding:30px 30px 0px 30px; ">
+                            <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                               <tr>
+                                   <td>
+                                    <p style="font-family: Poppins;font-size: 12px;font-style: normal;font-weight:400; margin: 0 0 0 0px;line-height: 25px;letter-spacing: 0em;">Total Credit</p>
+                                       <p style="font-family: Poppins;font-size: 16px;font-style: normal;font-weight:600; margin: 0 0 0 0px;line-height: 25px;letter-spacing: 0em;">{{primaryWalletTotalCredit}}</p>
+                                   </td>
+                                   <td >
+                                       <p style="font-family: Poppins;font-size: 12px;font-style: normal;font-weight:400; margin: 0 60px 0 0px;line-height: 25px;letter-spacing: 0em;">Total Dedit</p>
+                                       <p style="font-family: Poppins;font-size: 16px;font-style: normal;font-weight:600; margin: 0 60px 0 0px;line-height: 25px;letter-spacing: 0em;">{{primaryWalletTotalDebit}}</p>
+                                   </td>
+                               </tr>
+
+                            </table>
+
+                        </td>
+                    </tr>
+                    <tr>
+                           <td style="padding:30px 30px 0px 30px; ">
+                            <table role="presentation" style="width:100%;border-collapse:collapse;border: 0.5px solid #E1E1E3;border-spacing:0;">
+                                <thead>
+                                    <tr>
+                                      <th scope="col" style="font-size:10px;color:#000;line-height:18px;font-weight:600px;padding:1px 1px 1px 5px;"><strong>Date</strong></th>
+                                      <th scope="col"style="font-size:10px;color:#000;line-height:18px;font-weight:600px;"><strong>Type</strong></th>
+                                      <th scope="col"style="font-size:10px;color:#000;line-height:18px;font-weight:600px;"><strong>Reference</strong></th>
+                                      <th scope="col"style="font-size:10px;color:#000;line-height:18px;font-weight:600px;"><strong>Debit</strong></th>
+                                      <th scope="col"style="font-size:10px;color:#000;line-height:18px;font-weight:600px;padding:1px 35px 1px 15px;"><strong>Credit</strong></th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                  {{#primaryWalletReportData}}
+                                    <tr style="border: 0.5px solid #E1E1E3;">
+                                      <td style="font-size: 8px;font-weight:400;line-height: 18px;padding:1px 1px 1px 30px;">{{primaryWalletDate}}</td>
+                                      <td style="font-size: 8px;font-weight:400;line-height: 18px;padding:1px 1px 1px 30px">{{primaryWalletType}}</td>
+                                      <td style="font-size: 8px;font-weight:100;line-height: 18px;padding:1px 1px 1px 35px">{{primaryWalletReference}}</td>
+                                      <td style="font-size: 8px;font-weight:400;line-height: 18px;padding:1px 1px 1px 20px">{{primaryWalletDebit}}</td>
+                                      <td style="font-size: 8px;font-weight:400;line-height: 18px;padding:1px 1px 1px 15px">{{primaryWalletCredit}}</td>
+                                    </tr>
+                                  {{/primaryWalletReportData}}
+
+
+                                  </tbody>
+
+                            </table>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:30px 30px 0px 30px;border-bottom: 1px solid #e1e1e3;">
+                         <p style="font-family: Poppins;font-size: 14px;font-style: normal;font-weight:400; margin: 0 0 0 0px;line-height: 30px;letter-spacing: 0em;">Name:<strong>{{secondaryWalletName}}</strong></p>
+                         <p style="font-family: Poppins;font-size: 14px;font-style: normal;font-weight:400; margin: 0 0 0 0px;line-height: 30px;letter-spacing: 0em;">Account number:<strong>{{secondaryWalletAccountNumber}} {{secondaryWalletCurrency}}</strong> </p>
+                         <p style="font-family: Poppins;font-size: 14px;font-style: normal;font-weight:400; margin: 0 0 0 0px;line-height: 30px;letter-spacing: 0em;">Address:<strong>{{secondaryWalletAddress}}</strong></p>
+                         <p style="font-family: Poppins;font-size: 14px;font-style: normal;font-weight:400; margin: 0 0 35px 0px;line-height: 30px;letter-spacing: 0em;">Period: <strong>{{secondaryWalletPeriod}}</strong></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                           <td style="padding:30px 30px 0px 30px; ">
+                            <table role="presentation" style="width:100%;border-collapse:collapse;border:0;border-spacing:0;">
+                               <tr>
+                                   <td>
+                                    <p style="font-family: Poppins;font-size: 12px;font-style: normal;font-weight:400; margin: 0 0 0 0px;line-height: 25px;letter-spacing: 0em;">Total Credit</p>
+                                       <p style="font-family: Poppins;font-size: 16px;font-style: normal;font-weight:600; margin: 0 0 0 0px;line-height: 25px;letter-spacing: 0em;">{{secondaryWalletTotalCredit}}</p>
+                                   </td>
+                                   <td >
+                                       <p style="font-family: Poppins;font-size: 12px;font-style: normal;font-weight:400; margin: 0 60px 0 0px;line-height: 25px;letter-spacing: 0em;">Total Dedit</p>
+                                       <p style="font-family: Poppins;font-size: 16px;font-style: normal;font-weight:600; margin: 0 60px 0 0px;line-height: 25px;letter-spacing: 0em;">{{secondaryWalletTotalDebit}}</p>
+                                   </td>
+                               </tr>
+
+                            </table>
+
+                        </td>
+                    </tr>
+                    <tr>
+                           <td style="padding:30px 30px 0px 30px; ">
+                            <table role="presentation" style="width:100%;border-collapse:collapse;border: 0.5px solid #E1E1E3;border-spacing:0;">
+                                <thead>
+                                    <tr>
+                                      <th scope="col" style="font-size:10px;color:#000;line-height:18px;font-weight:600px;padding:1px 1px 1px 5px;"><strong>Date</strong></th>
+                                      <th scope="col" style="font-size:10px;color:#000;line-height:18px;font-weight:600px;"><strong>Type</strong></th>
+                                      <th scope="col" style="font-size:10px;color:#000;line-height:18px;font-weight:600px;"><strong>Reference</strong></th>
+                                      <th scope="col" style="font-size:10px;color:#000;line-height:18px;font-weight:600px;"><strong>Debit</strong></th>
+                                      <th scope="col" style="font-size:10px;color:#000;line-height:18px;font-weight:600px;padding:1px 35px 1px 15px;"><strong>Credit</strong></th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                  {{#secondaryWalletReportData}}
+                                    <tr style="border: 0.5px solid #E1E1E3;">
+                                      <td style="font-size: 8px;font-weight:400;line-height: 18px;padding:1px 1px 1px 30px;">{{secondaryWalletDate}}</td>
+                                      <td style="font-size: 8px;font-weight:400;line-height: 18px;padding:1px 1px 1px 30px">{{secondaryWalletType}}</td>
+                                      <td style="font-size: 8px;font-weight:400;line-height: 18px;padding:1px 1px 1px 35px">{{secondaryWalletReference}}</td>
+                                      <td style="font-size: 8px;font-weight:400;line-height: 18px;padding:1px 1px 1px 20px">{{secondaryWalletDebit}}</td>
+                                      <td style="font-size: 8px;font-weight:400;line-height: 18px;padding:1px 1px 1px 15px">{{secondaryWalletCredit}}</td>
+                                    </tr>
+                                  {{/secondaryWalletReportData}}
+
+
+                                  </tbody>
+
+                            </table>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td style="padding:30px 30px 50px 30px; "></td>
+                 </tr>
+
+
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
